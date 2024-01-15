@@ -285,4 +285,8 @@ h2 {
         max-height: 41.5rem;
         max-width: 30rem;
     }
+
+    .remote {
+        grid-row: 1;
+    }
 }
