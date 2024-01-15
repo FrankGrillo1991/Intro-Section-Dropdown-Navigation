@@ -289,4 +289,16 @@ h2 {
     .remote {
         grid-row: 1;
     }
+
+    main {
+        gap: 8.8rem;
+        display: grid;
+        grid-template-columns: 560px 1fr;
+        margin: 0 auto;
+        margin-top: 2.7rem;
+        max-width: 1000px;
+        justify-content: center;
+    }
+
+
 }
