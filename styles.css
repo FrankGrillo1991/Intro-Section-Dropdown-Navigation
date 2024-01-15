@@ -300,5 +300,17 @@ h2 {
         justify-content: center;
     }
 
+    header {
+        gap: 3.8rem
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
 
 }
