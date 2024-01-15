@@ -27,3 +27,20 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+
+img,
+picture,
+video, 
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
