@@ -312,5 +312,10 @@ h2 {
         width: 100%;
     }
 
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
 
 }
