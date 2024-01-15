@@ -333,5 +333,21 @@ h2 {
         gap: 2.3rem;
     }
 
+    .hamburger {
+        display: none;
+    }
 
+    .partners {
+        justify-content: space-between;
+    }
+
+    .partners img {
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 3rem;
+    }
 }
