@@ -103,3 +103,28 @@ header.active .nav-menu {
     align-items: left;
     margin-top: 3rem;
 }
+
+header.active .nav-buttons {
+    width: max-content;
+    margin: 0 auto;
+}
+
+header.active .nav-buttons li:last-child button {
+    padding: 0.5rem 3rem;
+}
+
+nav ul a,
+nav ul button {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    align-items: center;
+    font-size: 14px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
