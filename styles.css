@@ -214,3 +214,11 @@ h2 {
     margin-top: 3.5px;
     transition: all ease-in-out 0.3s;
 }
+
+.partners {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
