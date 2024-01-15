@@ -317,5 +317,21 @@ h2 {
         flex-direction: row;
     }
 
+    .remote {
+        margin-top: 6.5rem;
+        margin-left: 2.3rem;
+        max-width: 94%;
+    }
+
+    .remote-information {
+        text-align: left;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .menu-ul {
+        gap: 2.3rem;
+    }
+
 
 }
