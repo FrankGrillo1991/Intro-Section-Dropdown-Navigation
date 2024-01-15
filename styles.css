@@ -61,3 +61,23 @@ h5,
 h6 {
     overflow-wrap: break-word;
 }
+
+#root,
+#_next {
+    isolation: isolate;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 2.6rem;
+    position: relative;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    display: none;
+}
