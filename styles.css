@@ -277,3 +277,12 @@ h2 {
     }
 }
 
+@media screen and (min-width: 1100px) {
+    .hero {
+        content: url("intro-section-with-dropdown-navigation-main/images/image-hero-desktop.png");
+        object-fit: cover;
+        grid-column: 2;
+        max-height: 41.5rem;
+        max-width: 30rem;
+    }
+}
