@@ -228,3 +228,18 @@ h2 {
     height: 100%;
     object-fit: contain;
 }
+
+.nav-buttons {
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.nav-buttons li:first-child button {
+    background-color: transparent;
+    border: none;
+    color: hsl(0, 0%, 41%);
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
