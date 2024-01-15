@@ -18,5 +18,12 @@ companyBtn.addEventListener("click", function() {
 })
 
 
-
+window.addEventListener('click', (e)=> {
+    if(hiddenFeaturesBtn.classList.contains("active") && e.target.innerText !== 'Features') {
+        hiddenFeaturesBtn.classList.remove("active");
+    }
+    if(hiddenCompanyBtn.classList.contains("active") && e.target.innerText !== 'Company') {
+        hiddenCompanyBtn.classList.remove("active");
+    }
+})
 
