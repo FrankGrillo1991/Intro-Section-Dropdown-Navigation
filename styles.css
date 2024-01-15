@@ -255,3 +255,25 @@ h2 {
     cursor: pointer;
     transition: all ease-in-out 0.3s;
 }
+
+@media (hover: hover) {
+    nav ul a:hover,
+    nav ul button:hover,
+    .remote-information a:hover,
+    .nav-buttons li button:hover {
+        color: hsl(0, 0%, 8%);
+        transition: all ease-in-out 0.3s;
+    }
+
+    .nav-buttons li:last-child button {
+        border-color: hsl(0, 0%, 8%);
+        transition: all ease-in-out 0.3s;
+    }
+
+    .remote-information a:hover {
+        background-color: transparent;
+        border: 1px solid hsl(0, 0%, 41%);
+        transition: all ease-in-out 0.3s;
+    }
+}
+
