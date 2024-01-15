@@ -128,3 +128,17 @@ nav ul button {
     background-color: transparent;
     border: none;
 }
+
+.hamburger {
+    cursor: pointer;
+    z-index: 99;
+    position: fixed;
+    margin-left: 85%;
+}
+
+.hidden-features li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
