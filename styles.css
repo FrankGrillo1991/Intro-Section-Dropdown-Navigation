@@ -188,3 +188,16 @@ h1 img {
 main {
     gap: 8.8rem;
 }
+
+h2 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+}
+
+.remote-information p {
+    color: hsl(0, 0%, 41%);
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+    width: 90%;
+}
