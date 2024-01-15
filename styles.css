@@ -215,6 +215,10 @@ h2 {
     transition: all ease-in-out 0.3s;
 }
 
+.learn {
+    margin: auto;
+}
+
 .partners {
     display: flex;
     flex-direction: row;
