@@ -132,3 +132,25 @@ nav .nav-links {
 .nav-link a span {
     margin-right: .75rem;
 }
+
+.nav-link .arrow-up {
+    display: none;
+}
+
+.nav-link.link-open .arrow-up {
+    display: initial;
+}
+
+.nav-link.nav-link.link-open .arrow-down {
+    display: none;
+}
+
+.nav .registration {
+    display: none;
+}
+
+main {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+}
