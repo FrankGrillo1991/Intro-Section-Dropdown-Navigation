@@ -328,4 +328,21 @@ main .text-content {
     main .text-content {
         order: 1;
     }
+
+    .text-content h1 {
+        font-size: 2rem;
+        line-height: normal;
+        margin-bottom: 2.5rem;
+    }
+
+    .text-content button {
+        font-size: 18px;
+        padding: 1rem 2rem;
+        margin: 2.5rem 0 5rem 0;
+        transition: all .3s linear;
+    }
+
+    .text-content button:active {
+        transform: scale(1.1);
+    }
 }
