@@ -82,3 +82,17 @@ nav {
     text-align: left;
     z-index: 1;
 }
+
+header.open nav {
+    transform: translateX(0%);
+}
+
+nav .nav-links {
+    margin-top: 75px;
+    flex: 1;
+}
+
+.nav-links .nav-link {
+    cursor: pointer;
+    position: relative;
+}
