@@ -10,4 +10,4 @@ dropDown.forEach(function(item) {
     item.addEventListener('click', function() {
         item.parentElement.classList.toggle('link-open');
     })
-})
+});
