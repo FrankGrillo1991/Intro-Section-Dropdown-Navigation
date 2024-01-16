@@ -68,3 +68,17 @@ header.open .open-menu {
 header.open .close-menu {
     display: initial;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 65vw;
+    height: 100vh;
+    background: white;
+    transform: translateX(100%);
+    transition: all .3s ease-in;
+    display: flex;
+    text-align: left;
+    z-index: 1;
+}
