@@ -1,5 +1,5 @@
 const menu = document.querySelector(".menu");
-const dropDown = document.querySelectorAll(".dropdown-link");
+const dropDown = document.querySelectorAll(".dropdown");
 
 menu.addEventListener('click', function() {
     menu.parentElement.classList.toggle('open');
@@ -10,4 +10,4 @@ dropDown.forEach(function(item) {
     item.addEventListener('click', function() {
         item.parentElement.classList.toggle('link-open');
     })
-});
+})
