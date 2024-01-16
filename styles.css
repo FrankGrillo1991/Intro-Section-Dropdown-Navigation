@@ -248,4 +248,14 @@ main .text-content {
     .nav-links .nav-link:first-child {
         font-weight: 700;
     }
+
+    .nav-link > a {
+        padding: 0;
+    }
+
+    .nav-link a:hover {
+        color: hsl(0, 0%, 8%);
+        background: transparent;
+        transform: translateY(-1px);
+    }
 }
