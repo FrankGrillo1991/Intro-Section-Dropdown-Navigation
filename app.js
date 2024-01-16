@@ -6,8 +6,9 @@ menu.addEventListener("click", function() {
     document.body.classList.toggle("nav-open");
 });
 
-dropDown.forEach(item) {
+dropDown.forEach(item); {
     item.addEventListener("click", function() {
-        item.parentElement.classList.toggle("link-open");
     });
+        item.parentElement.classList.toggle("link-open");
+    }
 });
