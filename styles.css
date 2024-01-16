@@ -266,4 +266,15 @@ main .text-content {
     .nav-link a span {
         margin-right: .5rem;
     }
+
+    .nav-link .dropdown-list {
+        position: absolute;
+        top: calc(100% + 1rem);
+        right: 0;
+        width: max-content;
+        background-color: white;
+        box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+        padding: 1rem 0;
+        border-radius: .5rem;
+    }
 }
