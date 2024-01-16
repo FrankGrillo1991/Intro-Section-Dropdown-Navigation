@@ -1,5 +1,6 @@
 const menu = document.querySelector(".menu");
 const dropDown = document.querySelectorAll(".dropdown");
+const navOpen = document.querySelectorAll("nav-open");
 
 menu.addEventListener("click", function() {
     menu.parentElement.classList.toggle("open");
@@ -9,5 +10,5 @@ menu.addEventListener("click", function() {
 dropDown.forEach(function(item) {
     item.addEventListener("click", function() {
         item.parentElement.classList.toggle("link-open");
-    })
-})
+    });
+});
