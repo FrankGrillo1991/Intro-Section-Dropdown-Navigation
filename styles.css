@@ -345,4 +345,9 @@ main .text-content {
     .text-content button:active {
         transform: scale(1.1);
     }
+
+    .clients img {
+        max-width: 100px;
+        cursor: text;
+    }
 }
