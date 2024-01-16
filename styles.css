@@ -181,3 +181,9 @@ main .text-content {
     cursor: pointer;
     transition: .5s all linear;
 }
+
+.text-content button:hover {
+    color: hsl(0, 0%, 8%);
+    background: transparent;
+}
+
