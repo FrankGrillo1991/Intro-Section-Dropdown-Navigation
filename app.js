@@ -1,4 +1,4 @@
-const menu = document.querySelector(".menu");
+
 const dropDown = document.querySelectorAll(".dropdown");
 
 menu.addEventListener('click', function() {
