@@ -113,3 +113,22 @@ nav .nav-links {
     padding: .5rem 1.5rem;
     overflow-y: hidden;
 }
+
+.nav-link.link.open .dropdown-list {
+    display: block;
+}
+
+.dropdown-list .dropdown-link a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem 1.5rem;
+}
+
+.dropdown-link a:hover {
+    background-color: hsla(0, 0%, 78%, .5);
+}
+
+.nav-link a span {
+    margin-right: .75rem;
+}
