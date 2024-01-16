@@ -283,4 +283,31 @@ main .text-content {
         justify-content: flex-end;
         flex: 1;
     }
+
+    .registration button {
+        color: hsl(0, 0%, 41%);
+        background: transparent;
+        font-size: .9rem;
+        font-weight: 700;
+        padding: .5rem 1rem;
+        margin: 0 .5rem;
+        border: .1rem solid hsl(0, 0%, 41%);
+        border-radius: 1rem;
+        cursor: pointer;
+        transition: all .3s ease-in;
+    }
+
+    .registration button:hover {
+        color:hsl(0, 0%, 8%);
+        border: .1rem solid hsl(0, 0%, 8%);
+        transform: translateY(-1px);
+    }
+
+    .registration button:active {
+        transform: scale(1.2);
+    }
+
+    .registration button:first-child {
+        border: none;
+    }
 }
