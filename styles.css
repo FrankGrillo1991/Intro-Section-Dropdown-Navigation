@@ -96,3 +96,20 @@ nav .nav-links {
     cursor: pointer;
     position: relative;
 }
+
+.nav-link > a {
+    width: 100%;
+    padding: .5rem 1.5rem;
+    display: block;
+    transition: all .3s ease-in;
+}
+
+.nav-link > a:hover {
+    background: hsla(0, 0%, 88%, 0.5);
+}
+
+.nav-link .dropdown-list {
+    display: none;
+    padding: .5rem 1.5rem;
+    overflow-y: hidden;
+}
