@@ -239,4 +239,13 @@ main .text-content {
         flex: 3;
         margin-top: 0;
     }
+
+    .nav-link {
+        text-align: right;
+        margin: 0 1rem;
+    }
+
+    .nav-links .nav-link:first-child {
+        font-weight: 700;
+    }
 }
