@@ -200,3 +200,22 @@ main .text-content {
     max-width: 69px;
 }
 
+@media(min-width: 850px) {
+    body {
+        background: hsl(0, 0%, 98%);
+    }
+
+    body .overlay {
+        display: none;
+        opacity: 0;
+    }
+
+    header {
+        padding: 1.5rem 3rem;
+        justify-content: center;
+    }
+
+    header .logo {
+        margin-top: .5rem;
+    }
+}
