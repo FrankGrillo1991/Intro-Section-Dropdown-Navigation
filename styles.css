@@ -168,3 +168,16 @@ main .text-content {
     font-size: 2.2rem;
     margin-bottom: 1rem;
 }
+
+.text-content button {
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    font-size: .9rem;
+    font-weight: 700;
+    padding: .8rem 1.6rem;
+    margin: 1.5rem 0;
+    border: 1px solid hsl(0, 0%, 8%);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .5s all linear;
+}
