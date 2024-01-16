@@ -258,4 +258,12 @@ main .text-content {
         background: transparent;
         transform: translateY(-1px);
     }
+
+    .nav-link > a:active {
+        transform: scale(1.2);
+    }
+
+    .nav-link a span {
+        margin-right: .5rem;
+    }
 }
