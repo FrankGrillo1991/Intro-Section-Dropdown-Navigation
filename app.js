@@ -1,6 +1,5 @@
 const menu = document.querySelector(".menu");
 const dropDown = document.querySelectorAll(".dropdown");
-const navOpen = document.querySelectorAll("nav-open");
 
 menu.addEventListener("click", function() {
     menu.parentElement.classList.toggle("open");
