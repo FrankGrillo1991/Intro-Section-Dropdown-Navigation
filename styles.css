@@ -310,4 +310,14 @@ main .text-content {
     .registration button:first-child {
         border: none;
     }
+
+    main {
+        max-width: 1200px;
+        grid-template-columns: 1fr minmax(auto,250px);
+        gap: 3rem;
+        margin: 5rem 10rem;
+        font-size: 18px;
+        text-align: left;
+        line-height: 1.5;
+    }
 }
