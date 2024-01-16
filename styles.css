@@ -218,4 +218,25 @@ main .text-content {
     header .logo {
         margin-top: .5rem;
     }
+
+    header .menu {
+        display: none;
+    }
+
+    nav {
+        position: initial;
+        max-width: 80vw;
+        height: auto;
+        background: transparent;
+        margin: 0 2rem;
+        flex: 3;
+        align-items: center;
+        transform: translateX(0%);
+    }
+
+    nav .nav-links {
+        display: flex;
+        flex: 3;
+        margin-top: 0;
+    }
 }
