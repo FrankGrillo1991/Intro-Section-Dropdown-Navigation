@@ -320,4 +320,12 @@ main .text-content {
         text-align: left;
         line-height: 1.5;
     }
+
+    main picture {
+        order: 2
+    }
+
+    main .text-content {
+        order: 1;
+    }
 }
