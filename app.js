@@ -9,5 +9,5 @@ menu.addEventListener("click", function() {
 dropDown.forEach(item); {
     item.addEventListener("click", function() {
         item.parentElement.classList.toggle("link-open");
-    });
-});
+    }
+]);
