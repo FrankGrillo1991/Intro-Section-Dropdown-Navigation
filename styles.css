@@ -23,3 +23,20 @@ body {
     line-height: 1.3;
     position: relative;
 }
+
+body .overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: hsla(0, 0%, 8%, 0.5);
+    transition: all .3s linear;
+}
+
+body.nav-open .overlay {
+    display: initial;
+    opacity: 1;
+}
