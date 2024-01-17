@@ -120,33 +120,103 @@ body {
                     cursor: pointer;
                     z-index: 1; }
                     @media screen and (max-width: 900px) {
-                        .btn--mobile {
-                            display: block; } }
-                            .btn--mobile img[name="close-icon"] {
-                                display: none; }
-                                .btn--outlined {
-                                    border: 1px solid dimgray;
-                                    padding: 1rem 1.5rem;
-                                    border-radius: 10px; }
-                                    .btn--outlined:hover {
-                                        color: #141414;
-                                        border: 1px solid currentColor; }
-                                        @media screen and (max-width: 400px) {
-                                            .btn--outlined {
-                                                width: 100%; } }
-                                        .btn--solid {
-                                            display: inline-block;
-                                            font-weight: 700;
-                                            font-size: 2rem;
-                                            background-color: #141414;
-                                            color: #fafafa;
-                                            padding: 1.8rem 3rem;
-                                            border-radius: 16px; }
-                                            .btn--solid:hover {
-                                                background-color: #fafafa;
-                                                color: #141414;
-                                                box-shadow: 0 0 0 1px inset #141414; }
+                    .btn--mobile {
+                        display: block; } }
+                    .btn--mobile img[name="close-icon"] {
+                        display: none; }
+                    .btn--outlined {
+                        border: 1px solid dimgray;
+                        padding: 1rem 1.5rem;
+                        border-radius: 10px; }
+                    .btn--outlined:hover {
+                        color: #141414;
+                        border: 1px solid currentColor; }
+                    @media screen and (max-width: 400px) {
+                    .btn--outlined {
+                        width: 100%; } }
+                    .btn--solid {
+                        display: inline-block;
+                        font-weight: 700;
+                        font-size: 2rem;
+                        background-color: #141414;
+                        color: #fafafa;
+                        padding: 1.8rem 3rem;
+                        border-radius: 16px; }
+                    .btn--solid:hover {
+                        background-color: #fafafa;
+                        color: #141414;
+                        box-shadow: 0 0 0 1px inset #141414; }
 
-                                                
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6.4rem;
+    font-size: 1.6rem;
+    color: dimgray;
+    padding: 4rem 0;
+    max-width: 80%;
+    margin: 0 auto; }
+    .navigation.active .navigation__block {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translateX(0); }  
+        .navigation.active .btn--mobile img[name="menu-icon"] {
+            display: none; }
+        .navigation.active .btn--mobile img[name="close-icon"] {
+            display: block; }
+        .navigation__block .navigation__registration {
+            display: flex;
+            align-items: center; }
+        .navigation__block {
+            flex: 1;
+            justify-content: space-between;
+            transition: all 0.3s ease; } 
+            @media screen and (max-width: 900px) {
+        .navigation__block {
+            flex-direction: column;
+            align-items: start;
+            justify-content: flex-start;
+            gap: 3.6rem;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            width: 60vw;
+            height: 100vh;
+            padding-top: 10rem;
+            padding-left: 3rem;
+            background-color: white;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transform: translateX(100%); } }
+            @media screen and (max-width: 400px) {
+        .navigation__block {
+            padding: 10rem 3rem 0 3rem; } }
+        .navigation__registration {
+            gap: 3.6rem; }
+            @media screen and (max-width: 900px) {
+                .navigation__registration {
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 2.4rem; } }
+            @media screen and (max-width: 400px) {
+                .navigation__registration {
+                    text-align: center;
+                    width: 100%; } }
+                
+                
+        
+    
+
+                
+            
+        
+        
+        
+        
+                                              
                                             
                                         
