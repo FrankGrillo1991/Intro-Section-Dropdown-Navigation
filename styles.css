@@ -36,3 +36,27 @@ main {
         main {
             padding: 2rem 0 8.4rem 0; } }
 
+html {
+    font-size: 62.5%; }
+    @media screen and (max-width: 900px) {
+        html {
+            font-size: 56.25% } }
+    @media screen and (max-width: 600px) {
+        html {
+            font-size: 50%; } }
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.8rem; }
+
+.heading-primary {
+    font-size: 8.4rem; }
+    @media screen and (max-width: 900px) {
+        .heading-primary {
+            font-size: 6.4rem; } }
+    @media screen and (max-width: 600px) {
+        .heading-primary {
+            font-size: 5.2rem; } }
+    @media screen and (max-width: 400px) {
+        .heading-primary {
+            font-size: 4rem; } }
