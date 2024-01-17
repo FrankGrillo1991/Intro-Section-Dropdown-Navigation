@@ -100,3 +100,53 @@ body {
     @media screen and (max-width: 400px) {
         .u-margin-bottom-lg {
             margin-bottom: 3rem; } }
+
+.u-overflow-y-hidden {
+    overflow-y: hidden; }
+
+.btn {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease; }
+    @media screen and (max-width: 400px) {
+        .btn--link {
+            width: 100%; } }
+            .btn--link:hover {
+                color: #141414; }
+                .btn--mobile {
+                    display: none;
+                    border: none;
+                    background: transparent;
+                    cursor: pointer;
+                    z-index: 1; }
+                    @media screen and (max-width: 900px) {
+                        .btn--mobile {
+                            display: block; } }
+                            .btn--mobile img[name="close-icon"] {
+                                display: none; }
+                                .btn--outlined {
+                                    border: 1px solid dimgray;
+                                    padding: 1rem 1.5rem;
+                                    border-radius: 10px; }
+                                    .btn--outlined:hover {
+                                        color: #141414;
+                                        border: 1px solid currentColor; }
+                                        @media screen and (max-width: 400px) {
+                                            .btn--outlined {
+                                                width: 100%; } }
+                                        .btn--solid {
+                                            display: inline-block;
+                                            font-weight: 700;
+                                            font-size: 2rem;
+                                            background-color: #141414;
+                                            color: #fafafa;
+                                            padding: 1.8rem 3rem;
+                                            border-radius: 16px; }
+                                            .btn--solid:hover {
+                                                background-color: #fafafa;
+                                                color: #141414;
+                                                box-shadow: 0 0 0 1px inset #141414; }
+
+                                                
+                                            
+                                        
