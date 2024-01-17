@@ -284,6 +284,46 @@ body {
                 @media screen and (max-width: 900px) {
                     .grid-2-cols {
                         grid-template-columns: 1fr; } }
+            .hero_partners {
+                display: flex;
+                align-items: center;
+                gap: 3rem;
+                margin-top: 15rem; }
+                @media screen and (max-width: 900px) {
+                    .hero_partners {
+                        justify-content: center;
+                        margin-top: 7.5rem; } }
+                    .hero_partners__img {
+                        width: 10rem; }
+                @media screen and (max-width: 400px) {
+                    .hero_partners__img {
+                        width: 7.5rem; } }
+        .hero__text-box {
+            align-self: end; }
+            @media screen and (max-width: 900px) {
+                .hero__text-box {
+                    order: 2;
+                    text-align: center;
+                    padding: 0 2rem; } }
+        @media screen and (max-width: 900px) {
+            .hero__img-box {
+                order: 1; } }
+            .hero__image {
+                display: block;
+                width: 100%; }
+            
+            
+        
+                
+            
+        
+                    
+                
+
+                    
+                    
+                
+            
                     
                 
 
