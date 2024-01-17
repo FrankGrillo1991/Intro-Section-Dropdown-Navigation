@@ -60,3 +60,11 @@ body {
     @media screen and (max-width: 400px) {
         .heading-primary {
             font-size: 4rem; } }
+
+.paragraph {
+    color: dimgray;
+    line-height: 1.6;
+    width: 75%; }
+    @media screen and (max-width: 900px) {
+        .paragraph {
+            width: 100%; } }
